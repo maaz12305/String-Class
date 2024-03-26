@@ -34,10 +34,7 @@ public class String implements Comparable<String> {
 	}
 	
 	
-	/**
-	 * IGNORE THIS METHOD.  IT IS PRESENT FOR TECHINCIAL REASONS NOT RELATED
-	 * TO THIS ASSIGNMENT.
-	 */
+	
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)
@@ -74,8 +71,7 @@ public class String implements Comparable<String> {
 	}
 	
 	/**
-	 * Prints the String to the screen.  This method is here to help you
-	 * debug your code.
+	 * Prints the String to the screen.  
 	 */
 	public void printToScreen() {
 		for(int i = 0; i < data.length; i++)
@@ -84,7 +80,6 @@ public class String implements Comparable<String> {
 	}
 
 	
-	/************** NO CHANGES ALLOWED ABOVE THIS LINE ****************/
 	
 
     /**
